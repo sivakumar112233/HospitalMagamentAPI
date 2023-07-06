@@ -1,0 +1,61 @@
+.about-us {
+  text-align: center;
+  padding: 20px;
+}
+
+.red-text {
+  color: red;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.column {
+  flex-basis: 50%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-description {
+  font-size: 14px;
+}
+
+/* Responsive Styles */
+
+@media screen and (max-width: 768px) {
+  .column {
+    flex-basis: 100%;
+  }
+}
+title{
+  color: red;
+}
